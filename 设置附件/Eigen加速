@@ -1,0 +1,15 @@
+https://eigen.tuxfamily.org/dox/group__DenseDecompositionBenchmark.html
+Eigen对不同的稠密矩阵求解器的速度比较，LLT基本为最优方法
+
+http://eigen.tuxfamily.org/dox/TopicUsingIntelMKL.html
+Eigen对MKL加速的说明页
+
+https://github.com/BeanLiu1994/solver_speed_test
+此程序包对比不同加速库：SuiteSparse，MKL，Eigen，CUDA对稀疏矩阵的求解的速度对比
+1,认为SuiteSparse加速最好。
+2,且提到了MKL加速的Eigen两种稀疏矩阵分解方法，Eigen::PardisoLDLT与Eigen::PardisoLDLT
+
+https://github.com/openmeeg/findmkl_cmake
+一个依赖于MKL的基本包
+注意：1.提取cmake文件夹，以及对Cmakelist进行足够的修改
+	 2.安装BLAS、MKL
