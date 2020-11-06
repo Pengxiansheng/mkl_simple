@@ -8,7 +8,7 @@ NXN维随机矩阵求逆
 |*llt().solveInPlace()*|9ms|812ms|48863ms|
 |*inverse()*|13ms|1100ms|65371ms|
 |*MKL llt().solveInPlace()*|*4ms*|*8ms*|*414ms*|
-|*MKL inverse()*|71ms|91ms|870ms|
+|*MKL inverse()*|71ms|91ms|870ms|  
 ===========================		
 ## 注
 * #define EIGEN_USE_MKL_ALL 需要写在Eigen头文件前
