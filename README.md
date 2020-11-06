@@ -27,10 +27,13 @@ NXN维随机矩阵求逆
 
 ## 本地修改  
 
-* .bashrc 增加  
-    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/intel路径/intel/lib/intel64:/intel路径/intel/mkl/lib/intel64
-    export PATH="$PATH:/intel路径/intel/bin"
-    source /intel路径/intel/compilers_and_libraries/linux/mkl/bin/mklvars.sh intel64
+* .bashrc 增加 
+
+``` 
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/intel路径/intel/lib/intel64:/intel路径/intel/mkl/lib/intel64
+export PATH="$PATH:/intel路径/intel/bin"
+source /intel路径/intel/compilers_and_libraries/linux/mkl/bin/mklvars.sh intel64
+```
 	
 ## 相关参考  
 
